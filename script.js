@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
 
             github: "https://github.com/VenkataSahithKotaru/E-Learning-Platform-Database-Analysis-using-SQL-",
-            live: "#"
+            live: "https://www.linkedin.com/posts/venkata-sahith-kotaru-69b565327_student-engagement-and-performance-analysis-activity-7410988740115890178-UmVH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFJ8d5cBDlQnDLIorYLYQUdyUb4NTDb5Mzk"
         },
 
 
@@ -279,8 +279,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Aggregations"
             ],
 
-            github: "#",
-            live: "#"
+            github: "https://github.com/VenkataSahithKotaru/SQL-Advanced-Project-Online-Food_Delivery",
+            live: "https://www.linkedin.com/posts/venkata-sahith-kotaru-69b565327_pro-sql-project-report-activity-7376140640776204288-9yid?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFJ8d5cBDlQnDLIorYLYQUdyUb4NTDb5Mzk"
         },
 
 
@@ -310,8 +310,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Database Design"
             ],
 
-            github: "#",
-            live: "#"
+            github: "https://github.com/VenkataSahithKotaru/-Hospital-Management-Analysis-SQL-Power-BI-Capstone-Project-",
+            live: " https://drive.google.com/file/d/1bLurOykq8MriONB36ukKA4HqLXH-XjPq/view?usp=drivesdk"
         },
 
 
@@ -342,8 +342,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Machine Learning"
             ],
 
-            github: "#",
-            live: "#"
+            github: "https://github.com/VenkataSahithKotaru/Smart-Lender-An-AI-Powered-Loan-Approval-Prediction-System-Using-Machine-Learning",
+            live: "https://drive.google.com/file/d/16UZal3keziQtwI4ZMswfS3_6ksp--UNg/view?usp=drive_link"
         }
 
     };
