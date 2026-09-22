@@ -148,647 +148,408 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
     });
-
-
-    /* =========================================================
-       PROJECT DATA
-    ========================================================= */
-
-    const projects = {
-
-        fleet: {
-            number: "01",
-            category: "FLEET & TRAVEL ANALYTICS",
-            tools: "SQL · POWER BI · CANVA",
-            title: "Fleet Operations & Travel Analytics",
-            image: "assets/projects/project1.png",
-
-            intro:
-                "A data-driven fleet and travel analytics system designed to help a travel agency understand vehicle utilization, trip performance, revenue, expenses, fuel consumption and maintenance.",
-
-            problem:
-                "Balaji Travels operates a fleet of buses, cars, and tempos across multiple tourism routes. Over the past three years, the company has accumulated thousands of records related to customers, trips, vehicles, drivers, maintenance, fuel expenses, salaries, and payments.Although large volumes of operational data were available, management struggled to transform this information into meaningful business insights.Business decisions relied heavily on manual reports and spreadsheets, making it difficult to identify profitable routes, monitor vehicle performance, control operational costs, and improve overall profitability.",
-
-            approach:
-                "To overcome these challenges, this project develops a centralized Fleet Operations & Travel Analytics Platform using MySQL and Power BI, enabling management to monitor business performance through interactive dashboards and data-driven insights.",
-
-            insights: "The business is currently operating at a net loss due to high operational expenses. Beach tourism generates the highest revenue among all tourism categories, while Force Traveller is the highest-performing vehicle based on revenue and utilization. High-value and repeat customers contribute significantly to overall business growth. Recovering pending payments and optimizing operational costs can further improve overall profitability.",
-
-            technologies: [
-                "SQL",
-                "MySQL",
-                "Power BI",
-                "Reporting",
-                "Dashboard"
-            ],
-
-            github:
-                "https://github.com/VenkataSahithKotaru/fleet-operations-analytics-platform",
-
-            live: "https://www.linkedin.com/feed/update/urn:li:activity:7478801714071068675/?originTrackingId=SfVrS0zDQtW5prKMW%2F7a9A%3D%3D"
-        },
-
-
-        gema: {
-            number: "02",
-            category: "DATA ANALYTICS",
-            tools: "SQL · POWER BI · EXCEL",
-            title: "GEMA Education Analytics Internship Project",
-            image: "assets/projects/project2.jpg",
-
-            intro:
-                "An education analytics project focused on comparing competition registration and performance data across different periods.",
-
-            problem:
-                "The project involved understanding changes in registration patterns and identifying meaningful differences between the available competition datasets.",
-
-            approach:
-                "The datasets were cleaned, analyzed and transformed into meaningful metrics and visualizations for comparison.",
-
-            insights:
-                "The analysis highlighted changes in registrations, category-level performance and other important patterns within the competition data.",
-
-            technologies: [
-                "SQL",
-                "Power BI",
-                "Excel",
-                "Data Cleaning",
-                "Data Analysis"
-            ],
-
-            github: "https://github.com/VenkataSahithKotaru/GEMA-Competition-Registration-Analysis",
-            live: "https://www.linkedin.com/in/venkata-sahith-kotaru-69b565327/recent-activity/all/"
-        },
-
-
-        student: {
-            number: "03",
-            category: "SQL ANALYSIS",
-            tools: "SQL",
-            title: "Student Engagement & Performance Analysis",
-            image: "assets/projects/project3.jpg",
-
-            intro:
-                "A SQL-based analytical project exploring student engagement and performance using structured academic data.",
-
-            problem:
-                "The objective was to understand student performance patterns and identify relationships between engagement and academic outcomes.",
-
-            approach:
-                "SQL queries were used to filter, join, aggregate and analyze student-related data to answer analytical questions.",
-
-            insights:
-                "The analysis provides a structured view of student performance and engagement patterns that can support data-driven observations.",
-
-            technologies: [
-                "SQL",
-                "MySQL",
-                "Joins",
-                "Aggregations",
-                "CTEs"
-            ],
-
-            github: "https://github.com/VenkataSahithKotaru/E-Learning-Platform-Database-Analysis-using-SQL-",
-            live: "https://www.linkedin.com/posts/venkata-sahith-kotaru-69b565327_student-engagement-and-performance-analysis-activity-7410988740115890178-UmVH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFJ8d5cBDlQnDLIorYLYQUdyUb4NTDb5Mzk"
-        },
-
-
-        food: {
-            number: "04",
-            category: "SQL PROJECT",
-            tools: "SQL · MYSQL",
-            title: "Online Food Delivery System Analytics",
-            image: "assets/projects/project4.jpg",
-
-            intro:
-                "A SQL analytics project built around an online food delivery system to explore orders, customers, restaurants and delivery-related information.",
-
-            problem:
-                "The project focused on extracting useful business information from operational food delivery data.",
-
-            approach:
-                "Relational data was analyzed using SQL queries involving filtering, joins, aggregations and analytical calculations.",
-
-            insights:
-                "The analysis helps understand order activity, customer behaviour, restaurant performance and other operational patterns.",
-
-            technologies: [
-                "SQL",
-                "MySQL",
-                "Joins",
-                "Aggregations"
-            ],
-
-            github: "https://github.com/VenkataSahithKotaru/SQL-Advanced-Project-Online-Food_Delivery",
-            live: "https://www.linkedin.com/posts/venkata-sahith-kotaru-69b565327_pro-sql-project-report-activity-7376140640776204288-9yid?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFJ8d5cBDlQnDLIorYLYQUdyUb4NTDb5Mzk"
-        },
-
-
-        hospital: {
-            number: "05",
-            category: "DATABASE PROJECT",
-            tools: "SQL · POWER BI",
-            title: "Hospital Management System Analysis",
-            image: "assets/projects/project5.jpg",
-
-            intro:
-                "A database-focused hospital management project designed to organize healthcare information and support analytical reporting.",
-
-            problem:
-                "The goal was to structure hospital-related information in a way that could support efficient management and analysis.",
-
-            approach:
-                "A relational database structure was designed and SQL was used to manage and analyze the stored information, with visualization used for reporting.",
-
-            insights:
-                "The project demonstrates how structured database systems can support healthcare data management and analytical reporting.",
-
-            technologies: [
-                "SQL",
-                "MySQL",
-                "Power BI",
-                "Database Design"
-            ],
-
-            github: "https://github.com/VenkataSahithKotaru/-Hospital-Management-Analysis-SQL-Power-BI-Capstone-Project-",
-            live: " https://drive.google.com/file/d/1bLurOykq8MriONB36ukKA4HqLXH-XjPq/view?usp=drivesdk"
-        },
-
-
-        lender: {
-            number: "06",
-            category: "MACHINE LEARNING",
-            tools: "PYTHON · FLASK · XGBOOST",
-            title: "Smart Lender: AI-Powered Loan Approval Prediction",
-            image: "assets/projects/project6.jpg",
-
-            intro:
-                "An AI-powered web application that predicts whether a loan application is likely to be approved or rejected using machine learning.",
-
-            problem:
-                "Traditional loan assessment can involve multiple applicant attributes. The project explored how machine learning could assist in predicting loan approval outcomes.",
-
-            approach:
-                "Multiple machine learning models were explored, including Decision Tree, Random Forest, KNN and XGBoost. The selected model was integrated into a Flask web application for real-time predictions.",
-
-            insights:
-                "The project demonstrates an end-to-end machine learning workflow from applicant data and model training to deployment through a web interface.",
-
-            technologies: [
-                "Python",
-                "Scikit-learn",
-                "XGBoost",
-                "Flask",
-                "Machine Learning"
-            ],
-
-            github: "https://github.com/VenkataSahithKotaru/Smart-Lender-An-AI-Powered-Loan-Approval-Prediction-System-Using-Machine-Learning",
-            live: "https://drive.google.com/file/d/16UZal3keziQtwI4ZMswfS3_6ksp--UNg/view?usp=drive_link"
-        }
-
-    };
-
-
-    /* =========================================================
-       PROJECT ORDER
-    ========================================================= */
-
-    const projectOrder = [
-        "fleet",
-        "gema",
-        "student",
-        "food",
-        "hospital",
-        "lender"
-    ];
-
-
-    /* =========================================================
-       CASE STUDY ELEMENTS
-    ========================================================= */
-
-    const caseStudy = document.getElementById("caseStudy");
-    const backProjects = document.getElementById("backProjects");
-
-    const caseImage = document.getElementById("caseImage");
-    const caseNumber = document.getElementById("caseNumber");
-    const caseCategory = document.getElementById("caseCategory");
-    const caseTools = document.getElementById("caseTools");
-    const caseTitle = document.getElementById("caseTitle");
-
-    const caseIntro = document.getElementById("caseIntro");
-    const caseProblem = document.getElementById("caseProblem");
-    const caseApproach = document.getElementById("caseApproach");
-    const caseInsights = document.getElementById("caseInsights");
-
-    const caseTech = document.getElementById("caseTech");
-
-    const caseGithub = document.getElementById("caseGithub");
-    const caseLive = document.getElementById("caseLive");
-
-    const previousProject = document.getElementById("previousProject");
-    const nextProject = document.getElementById("nextProject");
-
-    let currentProjectIndex = 0;
-
-
-    /* =========================================================
-       OPEN CASE STUDY
-    ========================================================= */
-
-    function openCaseStudy(projectId, imageFromCard = null) {
-
-        if (!caseStudy) {
-            console.error("ERROR: #caseStudy not found in HTML");
-            return;
-        }
-
-        const project = projects[projectId];
-
-        if (!project) {
-            console.error("ERROR: Project not found:", projectId);
-            return;
-        }
-
-        currentProjectIndex = projectOrder.indexOf(projectId);
-
-        if (currentProjectIndex < 0) {
-            currentProjectIndex = 0;
-        }
-
-
-        /* IMAGE */
-
-        if (caseImage) {
-
-            let finalImage = imageFromCard;
-
-            if (!finalImage) {
-                finalImage = project.image;
-            }
-
-            caseImage.style.display = "block";
-            caseImage.src = finalImage;
-            caseImage.alt = project.title;
-
-            caseImage.onerror = function () {
-                console.error("Image not found:", finalImage);
-                this.style.display = "none";
-            };
-
-        }
-
-
-        /* CONTENT */
-
-        if (caseNumber)
-            caseNumber.textContent = project.number;
-
-        if (caseCategory)
-            caseCategory.textContent = project.category;
-
-        if (caseTools)
-            caseTools.textContent = project.tools;
-
-        if (caseTitle)
-            caseTitle.textContent = project.title;
-
-        if (caseIntro)
-            caseIntro.textContent = project.intro;
-
-        if (caseProblem)
-            caseProblem.textContent = project.problem;
-
-        if (caseApproach)
-            caseApproach.textContent = project.approach;
-
-        if (caseInsights)
-            caseInsights.textContent = project.insights;
-
-
-        /* TECHNOLOGIES */
-
-        if (caseTech) {
-
-            caseTech.innerHTML = "";
-
-            project.technologies.forEach(technology => {
-
-                const tag = document.createElement("span");
-
-                tag.textContent = technology;
-
-                caseTech.appendChild(tag);
-
-            });
-
-        }
-
-
-        /* GITHUB */
-
-        if (caseGithub) {
-
-            caseGithub.href = project.github;
-
-            if (project.github === "#") {
-                caseGithub.onclick = event => {
-                    event.preventDefault();
-                };
-            } else {
-                caseGithub.onclick = null;
-            }
-
-        }
-
-
-        /* LIVE DEMO */
-
-        if (caseLive) {
-
-            caseLive.href = project.live;
-
-            if (project.live === "#") {
-                caseLive.onclick = event => {
-                    event.preventDefault();
-                };
-            } else {
-                caseLive.onclick = null;
-            }
-
-        }
-
-
-        /* OPEN */
-
-        caseStudy.classList.add("active");
-
-        document.body.classList.add("case-open");
-        document.body.style.overflow = "hidden";
-
-        caseStudy.scrollTop = 0;
-
+/* =========================================================
+   PROJECT CASE STUDIES
+   =========================================================
+   
+   FLEET:
+   - Existing Fleet case study
+   - Fleet only uses JS
+
+   OTHER PROJECTS:
+   - GEMA
+   - Hospital
+   - Student
+   - Food
+   - Smart Lender
+
+   Their complete content is in index.html.
+   JS ONLY opens/closes the static HTML case studies.
+   
+   NO PROJECT DATA IN JS.
+========================================================= */
+
+
+/* =========================================================
+   FLEET CASE STUDY
+   ========================================================= */
+
+const fleetCaseStudy =
+    document.getElementById("caseStudy");
+
+const backProjects =
+    document.getElementById("backProjects");
+
+
+/* =========================================================
+   OPEN FLEET CASE STUDY
+========================================================= */
+
+function openFleetCaseStudy() {
+
+    if (!fleetCaseStudy) {
+        console.error("Fleet #caseStudy not found.");
+        return;
     }
 
+    fleetCaseStudy.classList.add("active");
 
-    /* =========================================================
-       CLOSE CASE STUDY
-    ========================================================= */
+    document.body.classList.add("case-open");
 
-    function closeCaseStudy() {
+    document.body.style.overflow = "hidden";
 
-        if (!caseStudy) return;
+    fleetCaseStudy.scrollTop = 0;
 
-        caseStudy.classList.remove("active");
+}
 
-        document.body.classList.remove("case-open");
-        document.body.style.overflow = "";
 
+/* =========================================================
+   CLOSE FLEET CASE STUDY
+========================================================= */
+
+function closeFleetCaseStudy() {
+
+    if (!fleetCaseStudy) {
+        return;
     }
 
+    fleetCaseStudy.classList.remove("active");
 
-    /* Make available for HTML onclick */
+    document.body.classList.remove("case-open");
 
-    window.openCaseStudy = openCaseStudy;
-    window.closeCaseStudy = closeCaseStudy;
+    document.body.style.overflow = "";
+
+}
 
 
-    /* =========================================================
-       PROJECT CARD CLICK
-    ========================================================= */
+/* =========================================================
+   FLEET CARD CLICK
+========================================================= */
 
-    const projectCards = document.querySelectorAll(
-        ".featured-project, .project-row, .project-card"
+const fleetCard =
+    document.querySelector(
+        '.featured-project[data-project="fleet"]'
     );
 
-    projectCards.forEach(card => {
 
-        card.addEventListener("click", event => {
+if (fleetCard) {
 
-            // Ignore normal links
-            if (
-                event.target.closest("a") &&
-                !event.target.closest(".case-study-btn")
-            ) {
-                return;
-            }
+    fleetCard.addEventListener("click", event => {
 
-            const projectId = card.dataset.project;
+        /*
+         * If user clicks a normal external link,
+         * don't open Fleet case study.
+         */
 
-            if (!projectId) {
-                console.error(
-                    "ERROR: Project card missing data-project",
-                    card
-                );
-                return;
-            }
+        if (
+            event.target.closest("a") &&
+            !event.target.closest(".case-study-btn")
+        ) {
+            return;
+        }
 
-            const cardImage = card.querySelector("img");
-
-            const imageUrl = cardImage
-                ? (cardImage.currentSrc || cardImage.src)
-                : null;
-
-            openCaseStudy(projectId, imageUrl);
-
-        });
+        openFleetCaseStudy();
 
     });
 
+}
 
-    /* =========================================================
-       EXPLORE CASE STUDY BUTTON
-    ========================================================= */
 
-    document.querySelectorAll(".case-study-btn").forEach(button => {
+/* =========================================================
+   FLEET — EXPLORE CASE STUDY BUTTON
+========================================================= */
+
+if (fleetCard) {
+
+    const fleetButton =
+        fleetCard.querySelector(".case-study-btn");
+
+    if (fleetButton) {
+
+        fleetButton.addEventListener("click", event => {
+
+            event.preventDefault();
+
+            event.stopPropagation();
+
+            openFleetCaseStudy();
+
+        });
+
+    }
+
+}
+
+
+/* =========================================================
+   FLEET — BACK TO PROJECTS
+========================================================= */
+
+if (backProjects) {
+
+    backProjects.addEventListener("click", event => {
+
+        event.preventDefault();
+
+        closeFleetCaseStudy();
+
+    });
+
+}
+
+
+/* =========================================================
+   FLEET — ESCAPE KEY
+========================================================= */
+
+document.addEventListener("keydown", event => {
+
+    if (event.key !== "Escape") {
+        return;
+    }
+
+    if (
+        fleetCaseStudy &&
+        fleetCaseStudy.classList.contains("active")
+    ) {
+
+        closeFleetCaseStudy();
+
+    }
+
+});
+
+
+/* =========================================================
+   FLEET — CLICK OUTSIDE
+========================================================= */
+
+if (fleetCaseStudy) {
+
+    fleetCaseStudy.addEventListener("click", event => {
+
+        if (event.target === fleetCaseStudy) {
+
+            closeFleetCaseStudy();
+
+        }
+
+    });
+
+}
+
+
+/* =========================================================
+   STATIC CASE STUDY OPEN FUNCTION
+   =========================================================
+
+   These projects already contain their complete
+   case-study content inside index.html.
+
+   JS only finds the section and adds "active".
+========================================================= */
+
+function openStaticCaseStudy(caseStudyId) {
+
+    const caseStudy =
+        document.getElementById(caseStudyId);
+
+    if (!caseStudy) {
+
+        console.error(
+            "Static case study not found:",
+            caseStudyId
+        );
+
+        return;
+
+    }
+
+
+    caseStudy.classList.add("active");
+
+    document.body.classList.add("case-open");
+
+    document.body.style.overflow = "hidden";
+
+    caseStudy.scrollTop = 0;
+
+}
+
+
+/* =========================================================
+   STATIC CASE STUDY CLOSE FUNCTION
+========================================================= */
+
+function closeStaticCaseStudy(caseStudy) {
+
+    if (!caseStudy) {
+        return;
+    }
+
+    caseStudy.classList.remove("active");
+
+    document.body.classList.remove("case-open");
+
+    document.body.style.overflow = "";
+
+}
+
+
+/* =========================================================
+   OTHER PROJECT CARD CLICK
+========================================================= */
+
+const staticProjectCards =
+    document.querySelectorAll(
+        ".project-card[data-static-project]"
+    );
+
+
+staticProjectCards.forEach(card => {
+
+    card.addEventListener("click", event => {
+
+        /*
+         * Don't open case study if user clicks
+         * an external project link.
+         */
+
+        if (event.target.closest("a")) {
+            return;
+        }
+
+
+        const caseStudyId =
+            card.getAttribute("data-static-project");
+
+
+        if (!caseStudyId) {
+            return;
+        }
+
+
+        openStaticCaseStudy(caseStudyId);
+
+    });
+
+});
+
+
+/* =========================================================
+   STATIC CASE STUDY — BACK BUTTONS
+========================================================= */
+
+document
+    .querySelectorAll(".back-static-projects")
+    .forEach(button => {
 
         button.addEventListener("click", event => {
 
             event.preventDefault();
+
             event.stopPropagation();
 
-            const card = button.closest(
-                ".featured-project, .project-row, .project-card"
-            );
 
-            if (!card) {
-                console.error(
-                    "ERROR: Case study button is not inside a project card."
-                );
+            const caseStudy =
+                button.closest(".case-study");
+
+
+            if (!caseStudy) {
                 return;
             }
 
-            const projectId = card.dataset.project;
 
-            if (!projectId) {
-                console.error(
-                    "ERROR: Missing data-project on project card."
-                );
-                return;
-            }
-
-            const cardImage = card.querySelector("img");
-
-            const imageUrl = cardImage
-                ? (cardImage.currentSrc || cardImage.src)
-                : null;
-
-            openCaseStudy(projectId, imageUrl);
+            closeStaticCaseStudy(caseStudy);
 
         });
 
     });
 
 
-    /* =========================================================
-       BACK TO PROJECTS
-    ========================================================= */
+/* =========================================================
+   STATIC CASE STUDIES — ESCAPE KEY
+========================================================= */
 
-    if (backProjects) {
+document.addEventListener("keydown", event => {
 
-        backProjects.addEventListener("click", event => {
-
-            event.preventDefault();
-
-            closeCaseStudy();
-
-        });
-
+    if (event.key !== "Escape") {
+        return;
     }
 
 
-    /* =========================================================
-       NEXT PROJECT
-    ========================================================= */
-
-    function showNextProject() {
-
-        currentProjectIndex++;
-
-        if (currentProjectIndex >= projectOrder.length) {
-            currentProjectIndex = 0;
-        }
-
-        openCaseStudy(
-            projectOrder[currentProjectIndex]
+    const activeStaticCaseStudy =
+        document.querySelector(
+            ".case-study.active:not(#caseStudy)"
         );
 
-    }
 
-    if (nextProject) {
-
-        nextProject.addEventListener("click", event => {
-
-            event.preventDefault();
-
-            showNextProject();
-
-        });
-
+    if (!activeStaticCaseStudy) {
+        return;
     }
 
 
-    /* =========================================================
-       PREVIOUS PROJECT
-    ========================================================= */
-
-    function showPreviousProject() {
-
-        currentProjectIndex--;
-
-        if (currentProjectIndex < 0) {
-            currentProjectIndex = projectOrder.length - 1;
-        }
-
-        openCaseStudy(
-            projectOrder[currentProjectIndex]
-        );
-
-    }
-
-    if (previousProject) {
-
-        previousProject.addEventListener("click", event => {
-
-            event.preventDefault();
-
-            showPreviousProject();
-
-        });
-
-    }
-
-
-    /* =========================================================
-       ESCAPE KEY
-    ========================================================= */
-
-    document.addEventListener("keydown", event => {
-
-        if (
-            event.key === "Escape" &&
-            caseStudy &&
-            caseStudy.classList.contains("active")
-        ) {
-            closeCaseStudy();
-        }
-
-    });
-
-
-    /* =========================================================
-       ARROW KEY NAVIGATION
-    ========================================================= */
-
-    document.addEventListener("keydown", event => {
-
-        if (
-            !caseStudy ||
-            !caseStudy.classList.contains("active")
-        ) {
-            return;
-        }
-
-        if (event.key === "ArrowRight") {
-            showNextProject();
-        }
-
-        if (event.key === "ArrowLeft") {
-            showPreviousProject();
-        }
-
-    });
-
-
-    /* =========================================================
-       CLICK OUTSIDE
-    ========================================================= */
-
-    if (caseStudy) {
-
-        caseStudy.addEventListener("click", event => {
-
-            if (event.target === caseStudy) {
-                closeCaseStudy();
-            }
-
-        });
-
-    }
-
-
-    /* =========================================================
-       DEBUG
-    ========================================================= */
-
-    console.log("Portfolio JavaScript loaded successfully.");
-    console.log("Project cards found:", projectCards.length);
-    console.log(
-        "Case study buttons found:",
-        document.querySelectorAll(".case-study-btn").length
+    closeStaticCaseStudy(
+        activeStaticCaseStudy
     );
 
 });
+
+
+/* =========================================================
+   STATIC CASE STUDIES — CLICK OUTSIDE
+========================================================= */
+
+document
+    .querySelectorAll(
+        ".case-study:not(#caseStudy)"
+    )
+    .forEach(caseStudy => {
+
+        caseStudy.addEventListener(
+            "click",
+            event => {
+
+                if (
+                    event.target === caseStudy
+                ) {
+
+                    closeStaticCaseStudy(
+                        caseStudy
+                    );
+
+                }
+
+            }
+        );
+
+    });
+
+
+/* =========================================================
+   PROJECT DEBUG
+========================================================= */
+
+console.log(
+    "Project navigation loaded successfully."
+);
+
+console.log(
+    "Fleet card:",
+    fleetCard ? "FOUND" : "NOT FOUND"
+);
+
+console.log(
+    "Static project cards:",
+    staticProjectCards.length
+);
+
+console.log(
+    "Static case studies:",
+    document.querySelectorAll(
+        ".case-study:not(#caseStudy)"
+    ).length
+);
 
 
 /* =========================================================
@@ -1675,3 +1436,4 @@ console.log(
     "Event cards found:",
     document.querySelectorAll(".event-card").length
 );
+});

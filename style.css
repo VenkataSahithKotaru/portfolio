@@ -6290,3 +6290,1628 @@ body.case-open {
     }
 
 }
+/* =====================================================
+   PROJECT CASE STUDY — DETAIL SECTIONS
+   Overview + Problem Statement
+===================================================== */
+
+
+/* -----------------------------------------------------
+   PROJECT DETAIL SECTION
+----------------------------------------------------- */
+
+.project-detail-section {
+
+    width: 86%;
+    max-width: 1150px;
+
+    margin: 0 auto 95px;
+}
+
+
+/* -----------------------------------------------------
+   SECTION HEADING
+----------------------------------------------------- */
+
+.project-detail-heading {
+
+    margin-bottom: 28px;
+
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid rgba(20, 40, 60, 0.15);
+}
+
+
+.project-detail-heading span {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: #087f82;
+
+    font-family: "DM Sans", sans-serif;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+
+.project-detail-heading h2 {
+
+    margin: 0;
+
+    color: #102d38;
+
+    font-family: "DM Sans", sans-serif;
+
+    font-size: 30px;
+
+    font-weight: 500;
+
+    line-height: 1.15;
+}
+
+
+/* -----------------------------------------------------
+   PROJECT OVERVIEW
+----------------------------------------------------- */
+
+.project-overview-text {
+
+    max-width: 1000px;
+}
+
+
+.project-overview-text p {
+
+    margin: 0 0 20px;
+
+    color: #53636a;
+
+    font-family: "DM Sans", sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 1.8;
+}
+
+
+.project-overview-text p:last-child {
+
+    margin-bottom: 0;
+}
+
+
+/* -----------------------------------------------------
+   PROBLEM STATEMENT
+----------------------------------------------------- */
+
+.problem-section {
+
+    margin-top: 10px;
+}
+
+
+.problem-layout {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    width: 100%;
+
+    border: 1px solid rgba(20, 40, 60, 0.15);
+
+    background: transparent;
+}
+
+
+/* LEFT TEXT */
+
+.problem-text {
+
+    padding: 8px 28px 20px;
+
+    border-right: 1px solid rgba(20, 40, 60, 0.15);
+}
+
+
+.problem-text p {
+
+    margin: 0 0 22px;
+
+    color: #53636a;
+
+    font-family: "DM Sans", sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 1.75;
+}
+
+
+.problem-text p:last-child {
+
+    margin-bottom: 0;
+}
+
+
+/* RIGHT IMAGE */
+
+.problem-image {
+
+    min-height: 420px;
+
+    padding: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #f8f6f0;
+}
+
+
+.problem-image img {
+
+    display: block;
+
+    width: 100%;
+
+    height: 100%;
+
+    max-height: 420px;
+
+    object-fit: contain;
+}
+
+
+/* -----------------------------------------------------
+   EXISTING CASE BLOCKS
+   Keep them consistent with new sections
+----------------------------------------------------- */
+
+.case-block {
+
+    width: 86%;
+
+    max-width: 1150px;
+
+    margin: 0 auto 70px;
+}
+
+
+.case-label {
+
+    margin-bottom: 18px;
+
+    color: #087f82;
+
+    font-family: "DM Sans", sans-serif;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+
+.case-block p {
+
+    max-width: 950px;
+
+    margin: 0;
+
+    color: #53636a;
+
+    font-family: "DM Sans", sans-serif;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+}
+
+
+/* -----------------------------------------------------
+   TECHNOLOGY TAGS
+----------------------------------------------------- */
+
+.case-tech {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+
+.case-tech span {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 9px 14px;
+
+    border: 1px solid rgba(20, 40, 60, 0.15);
+
+    background: transparent;
+
+    color: #102d38;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: .5px;
+}
+
+
+/* -----------------------------------------------------
+   PROJECT ACTIONS
+----------------------------------------------------- */
+
+.case-actions {
+
+    width: 86%;
+
+    max-width: 1150px;
+
+    margin: 0 auto 80px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+}
+
+
+.case-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 12px 18px;
+
+    background: #102d38;
+
+    border: 1px solid #102d38;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    transition:
+        background .25s ease,
+        color .25s ease,
+        transform .25s ease;
+}
+
+
+.case-btn:hover {
+
+    background: #087f82;
+
+    border-color: #087f82;
+
+    transform: translateY(-2px);
+}
+
+
+.case-btn.secondary {
+
+    background: transparent;
+
+    color: #102d38;
+}
+
+
+.case-btn.secondary:hover {
+
+    background: #102d38;
+
+    color: #ffffff;
+}
+
+
+/* -----------------------------------------------------
+   MOBILE
+----------------------------------------------------- */
+
+@media (max-width: 800px) {
+
+    .project-detail-section {
+
+        width: 88%;
+
+        margin-bottom: 70px;
+    }
+
+
+    .project-detail-heading h2 {
+
+        font-size: 26px;
+    }
+
+
+    .problem-layout {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .problem-text {
+
+        padding: 25px;
+
+        border-right: none;
+
+        border-bottom: 1px solid rgba(20, 40, 60, 0.15);
+    }
+
+
+    .problem-image {
+
+        min-height: 300px;
+    }
+
+
+    .case-block {
+
+        width: 88%;
+
+        margin-bottom: 60px;
+    }
+
+
+    .case-actions {
+
+        width: 88%;
+
+        flex-wrap: wrap;
+
+        margin-bottom: 60px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .project-detail-heading h2 {
+
+        font-size: 24px;
+    }
+
+
+    .project-overview-text p,
+    .problem-text p,
+    .case-block p {
+
+        font-size: 13px;
+
+        line-height: 1.75;
+    }
+
+
+    .problem-text {
+
+        padding: 22px;
+    }
+
+
+    .problem-image {
+
+        min-height: 250px;
+
+        padding: 6px;
+    }
+
+
+    .case-actions {
+
+        gap: 12px;
+    }
+
+}
+/* =====================================================
+   PROJECT CASE STUDY — HERO FIX
+   Prevent hero content from overlapping Overview
+===================================================== */
+
+.case-study-body {
+
+    display: grid !important;
+
+    grid-template-columns: 48% 52% !important;
+
+    flex: 0 0 auto !important;
+
+    min-height: 600px !important;
+
+    height: auto !important;
+
+    width: 100%;
+
+}
+
+
+.case-visual {
+
+    position: relative;
+
+    min-height: 600px !important;
+
+    height: 600px !important;
+
+    overflow: hidden;
+}
+
+
+.case-visual img {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+.case-content {
+
+    box-sizing: border-box;
+
+    padding: 65px 70px !important;
+
+    min-height: 600px !important;
+
+    height: auto !important;
+
+    overflow: visible !important;
+
+}
+
+
+.case-content h1 {
+
+    position: static !important;
+
+    display: block !important;
+
+    max-width: 650px;
+
+    margin: 35px 0 0 !important;
+
+    color: var(--navy);
+
+    font-size: clamp(45px, 5vw, 72px);
+
+    line-height: 0.92;
+
+    letter-spacing: -5px;
+
+    font-weight: 900;
+}
+
+
+.case-intro {
+
+    display: block !important;
+
+    max-width: 580px;
+
+    margin: 25px 0 0 !important;
+
+    color: var(--gray);
+
+    font-size: 14px;
+
+    line-height: 1.8;
+}
+
+
+/* =====================================================
+   OVERVIEW — KEEP IT BELOW HERO
+===================================================== */
+
+.project-detail-section {
+
+    position: relative;
+
+    display: block;
+
+    clear: both;
+
+    width: 86%;
+
+    max-width: 1150px;
+
+    margin: 0 auto 95px;
+
+}
+
+
+.project-detail-section:first-of-type {
+
+    margin-top: 80px;
+
+}
+
+
+/* =====================================================
+   PROBLEM SECTION
+===================================================== */
+
+.problem-section {
+
+    position: relative;
+
+    clear: both;
+
+    margin-top: 0;
+}
+
+
+/* =====================================================
+   DESKTOP
+===================================================== */
+
+@media (min-width: 901px) {
+
+    .case-study-body {
+
+        grid-template-columns: 48% 52% !important;
+
+        min-height: 600px !important;
+
+    }
+
+    .case-visual {
+
+        height: 600px !important;
+
+    }
+
+    .case-content {
+
+        height: 600px !important;
+
+    }
+
+}
+
+
+/* =====================================================
+   TABLET / MOBILE
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .case-study-body {
+
+        grid-template-columns: 1fr !important;
+
+        min-height: auto !important;
+
+    }
+
+    .case-visual {
+
+        width: 100%;
+
+        min-height: 350px !important;
+
+        height: 350px !important;
+
+    }
+
+    .case-content {
+
+        width: 100%;
+
+        min-height: auto !important;
+
+        height: auto !important;
+
+        padding: 45px 7% !important;
+
+    }
+
+    .project-detail-section {
+
+        width: 86%;
+
+        margin-bottom: 70px;
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .case-visual {
+
+        min-height: 280px !important;
+
+        height: 280px !important;
+
+    }
+
+    .case-content {
+
+        padding: 35px 6% 50px !important;
+
+    }
+
+    .case-content h1 {
+
+        font-size: 44px;
+
+        letter-spacing: -3px;
+
+    }
+
+}
+/* =====================================================
+   PROJECT HERO IMAGE — KEEP FULL IMAGE
+===================================================== */
+
+.case-visual {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 32px !important;
+
+    background: transparent !important;
+
+    overflow: visible !important;
+}
+
+
+.case-visual img {
+    width: 100% !important;
+    height: auto !important;
+
+    max-width: 100% !important;
+    max-height: none !important;
+
+    object-fit: contain !important;
+
+    display: block !important;
+}
+/* =====================================================
+   PROJECT HERO — BIGGER BOLD HEADLINE
+===================================================== */
+
+.case-content h1 {
+    max-width: 750px !important;
+
+    font-size: clamp(58px, 6vw, 88px) !important;
+
+    line-height: 0.92 !important;
+
+    letter-spacing: -4px !important;
+
+    font-weight: 900 !important;
+
+    color: var(--navy) !important;
+}
+
+
+/* Project section headlines */
+
+.project-detail-heading h2 {
+
+    font-size: clamp(32px, 3.2vw, 46px) !important;
+
+    font-weight: 800 !important;
+
+    letter-spacing: -1.5px;
+
+    color: var(--navy) !important;
+}
+
+
+/* Section labels */
+
+.project-detail-heading span {
+
+    font-size: 11px !important;
+
+    font-weight: 900 !important;
+
+    letter-spacing: 2.5px;
+
+}
+
+
+/* Overview / Problem body text */
+
+.project-overview-text p,
+.problem-text p {
+
+    font-size: 15px !important;
+
+    line-height: 1.85 !important;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .case-content h1 {
+
+        font-size: 48px !important;
+
+        letter-spacing: -3px !important;
+
+    }
+
+    .project-detail-heading h2 {
+
+        font-size: 30px !important;
+
+    }
+
+}
+/* =====================================================
+   OBJECTIVES
+===================================================== */
+
+.project-list-section {
+
+    max-width: 1000px;
+
+    color: #53636a;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+}
+
+.project-list-section p {
+
+    margin: 0 0 15px;
+}
+
+.project-list-section ul {
+
+    margin: 0;
+
+    padding-left: 20px;
+}
+
+.project-list-section li {
+
+    margin-bottom: 8px;
+
+    padding-left: 4px;
+}
+
+
+/* =====================================================
+   PROJECT FEATURES
+===================================================== */
+
+.project-features-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    max-width: 950px;
+}
+
+.project-feature-item {
+
+    display: grid;
+
+    grid-template-columns: 50px 1fr;
+
+    align-items: center;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid rgba(20, 40, 60, 0.12);
+}
+
+.project-feature-item span {
+
+    color: #087f82;
+
+    font-size: 10px;
+
+    font-weight: 900;
+
+    letter-spacing: 1px;
+}
+
+.project-feature-item p {
+
+    margin: 0;
+
+    color: #53636a;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* =====================================================
+   TECHNOLOGY TABLE
+===================================================== */
+
+.technology-table {
+
+    width: 100%;
+
+    max-width: 700px;
+
+    border: 1px solid rgba(20, 40, 60, 0.15);
+
+    background: #ffffff;
+}
+
+.technology-row {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    border-bottom: 1px solid rgba(20, 40, 60, 0.12);
+}
+
+.technology-row:last-child {
+
+    border-bottom: none;
+}
+
+.technology-row span {
+
+    padding: 11px 16px;
+
+    color: #53636a;
+
+    font-size: 12px;
+}
+
+.technology-row span:first-child {
+
+    border-right: 1px solid rgba(20, 40, 60, 0.12);
+
+    color: #102d38;
+
+    font-weight: 600;
+}
+
+.technology-header {
+
+    background: #f1eee6;
+}
+
+.technology-header span {
+
+    color: #102d38 !important;
+
+    font-weight: 800 !important;
+
+    font-size: 11px !important;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .project-list-section {
+
+        font-size: 13px;
+    }
+
+    .project-feature-item {
+
+        grid-template-columns: 40px 1fr;
+    }
+
+    .project-feature-item p {
+
+        font-size: 13px;
+    }
+
+    .technology-row span {
+
+        padding: 10px 12px;
+
+        font-size: 11px;
+    }
+
+}
+/* =====================================================
+   DATABASE DESIGN
+===================================================== */
+
+.database-design-section {
+    margin-bottom: 100px;
+}
+
+
+.database-description {
+
+    max-width: 1050px;
+
+    margin-bottom: 25px;
+}
+
+
+.database-description p {
+
+    margin: 0;
+
+    color: #53636a;
+
+    font-size: 13px;
+
+    line-height: 1.65;
+}
+
+
+.database-image {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+
+.database-image img {
+
+    width: 100%;
+
+    max-width: 1000px;
+
+    height: auto;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .database-design-section {
+
+        margin-bottom: 70px;
+    }
+
+    .database-description p {
+
+        font-size: 12px;
+
+        line-height: 1.7;
+    }
+
+    .database-image img {
+
+        width: 100%;
+    }
+
+}
+/* =====================================================
+   PROJECT WORKFLOW
+===================================================== */
+
+.workflow-section {
+    margin-bottom: 85px;
+}
+
+
+.workflow-description {
+
+    max-width: 1050px;
+
+    margin-bottom: 25px;
+}
+
+
+.workflow-description p {
+
+    margin: 0;
+
+    color: #53636a;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+.workflow-image {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    overflow: hidden;
+}
+
+
+.workflow-image img {
+
+    width: auto;
+
+    max-width: 100%;
+
+    height: auto;
+
+    max-height: 600px;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+/* =====================================================
+   SQL ANALYTICS
+===================================================== */
+
+.sql-analytics-section {
+
+    margin-bottom: 100px;
+}
+
+
+.sql-description {
+
+    max-width: 1050px;
+
+    margin-bottom: 25px;
+}
+
+
+.sql-description p {
+
+    margin: 0;
+
+    color: #53636a;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+.sql-concepts {
+
+    margin-top: 25px;
+}
+
+
+.sql-concepts h3 {
+
+    margin: 0 0 12px;
+
+    color: #102d38;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+
+.sql-concepts ul {
+
+    margin: 0;
+
+    padding-left: 20px;
+
+    color: #53636a;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+
+.sql-concepts li {
+
+    margin-bottom: 2px;
+}
+
+
+.sql-analysis-result {
+
+    max-width: 1050px;
+
+    margin: 22px 0 0;
+
+    color: #53636a;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .workflow-description p,
+    .sql-description p,
+    .sql-analysis-result {
+
+        font-size: 12px;
+
+        line-height: 1.7;
+    }
+
+
+    .workflow-image img {
+
+        width: 100%;
+
+        max-height: none;
+    }
+
+
+    .sql-concepts ul {
+
+        font-size: 12px;
+    }
+
+}
+/* =====================================================
+   PROJECT DEMO VIDEO
+===================================================== */
+
+.project-demo-section {
+
+    margin-bottom: 100px;
+}
+
+
+.demo-description {
+
+    max-width: 900px;
+
+    margin-bottom: 28px;
+}
+
+
+.demo-description p {
+
+    margin: 0;
+
+    color: #53636a;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+.demo-video-container {
+
+    width: 100%;
+
+    background: #102d38;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(20, 40, 60, 0.15);
+}
+
+
+.case-demo-video {
+
+    width: 100%;
+
+    height: auto;
+
+    min-height: 500px;
+
+    display: block;
+
+    background: #102d38;
+
+    object-fit: contain;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .project-demo-section {
+
+        margin-bottom: 70px;
+    }
+
+
+    .demo-description p {
+
+        font-size: 12px;
+    }
+
+
+    .case-demo-video {
+
+        min-height: 220px;
+    }
+
+}
+/* =====================================================
+   KEY BUSINESS INSIGHTS
+===================================================== */
+
+.insights-section {
+
+    margin-bottom: 100px;
+}
+
+
+/* -----------------------------------------------------
+   INSIGHTS LIST
+----------------------------------------------------- */
+
+.insights-list {
+
+    max-width: 1000px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-bottom: 45px;
+}
+
+
+.insight-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+
+.insight-item p {
+
+    margin: 0;
+
+    color: #53636a;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+.insight-dot {
+
+    width: 12px;
+
+    height: 12px;
+
+    flex: 0 0 12px;
+
+    border-radius: 50%;
+}
+
+
+/* RED — LOSS */
+
+.insight-dot.loss {
+
+    background: #e31b23;
+}
+
+
+/* GREEN — POSITIVE */
+
+.insight-dot.positive {
+
+    background: #16b83a;
+}
+
+
+/* ORANGE — WARNING */
+
+.insight-dot.warning {
+
+    background: #f26b21;
+}
+
+
+/* -----------------------------------------------------
+   CENTRAL IMAGE
+----------------------------------------------------- */
+
+.insights-image {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 35px;
+}
+
+
+.insights-image img {
+
+    display: block;
+
+    width: auto;
+
+    max-width: 850px;
+
+    max-height: 600px;
+
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* -----------------------------------------------------
+   MOBILE
+----------------------------------------------------- */
+
+@media (max-width: 600px) {
+
+    .insights-section {
+
+        margin-bottom: 70px;
+    }
+
+
+    .insight-item {
+
+        align-items: flex-start;
+    }
+
+
+    .insight-item p {
+
+        font-size: 13px;
+
+        line-height: 1.7;
+    }
+
+
+    .insights-image img {
+
+        width: 100%;
+
+        max-height: none;
+    }
+
+}
+/* =====================================================
+   PROJECT CONCLUSION
+===================================================== */
+
+.project-conclusion {
+
+    margin-bottom: 100px;
+}
+
+
+.conclusion-content {
+
+    max-width: 950px;
+}
+
+
+.conclusion-content p {
+
+    margin: 0 0 20px;
+
+    color: #53636a;
+
+    font-size: 14px;
+
+    line-height: 1.85;
+}
+
+
+.conclusion-content p:last-child {
+
+    margin-bottom: 0;
+}
+
+
+/* =====================================================
+   DETAILED PROJECT NOTE
+===================================================== */
+
+.detailed-project-note {
+
+    max-width: 950px;
+
+    margin-top: 45px;
+
+    padding: 28px 0;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 18px;
+
+    border-top: 1px solid rgba(20, 40, 60, 0.15);
+
+    border-bottom: 1px solid rgba(20, 40, 60, 0.15);
+}
+
+
+.detail-arrow {
+
+    color: #087f82;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    line-height: 1;
+}
+
+
+.detailed-project-note h3 {
+
+    margin: 0 0 10px;
+
+    color: #102d38;
+
+    font-size: 18px;
+
+    font-weight: 800;
+}
+
+
+.detailed-project-note p {
+
+    max-width: 750px;
+
+    margin: 0 0 18px;
+
+    color: #53636a;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   PROJECT LINK
+===================================================== */
+
+.detailed-project-links {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+}
+
+
+.detailed-project-links a {
+
+    color: #087f82;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    text-decoration: none;
+
+    transition:
+        color .25s ease,
+        transform .25s ease;
+}
+
+
+.detailed-project-links a:hover {
+
+    color: #102d38;
+
+    transform: translateX(4px);
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .project-conclusion {
+
+        margin-bottom: 70px;
+    }
+
+
+    .conclusion-content p {
+
+        font-size: 13px;
+
+        line-height: 1.75;
+    }
+
+
+    .detailed-project-note {
+
+        gap: 12px;
+
+        padding: 24px 0;
+    }
+
+
+    .detailed-project-note h3 {
+
+        font-size: 16px;
+    }
+
+
+    .detailed-project-note p {
+
+        font-size: 12px;
+    }
+
+}
